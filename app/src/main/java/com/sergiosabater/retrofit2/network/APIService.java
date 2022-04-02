@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 
 public interface APIService {
 
-    @GET("posts")
+    @GET("photos")
     Call<List<PostModel>> getPostsList();
 
 }
